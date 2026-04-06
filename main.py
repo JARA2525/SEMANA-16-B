@@ -4,13 +4,9 @@ from ui.app_tkinter import AppTareas
 
 
 def main():
-
     servicio = TareaServicio()
-
     root = tk.Tk()
-
     app = AppTareas(root, servicio)
-
     root.mainloop()
 
 
